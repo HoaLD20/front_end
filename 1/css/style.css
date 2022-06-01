@@ -42,3 +42,10 @@ body {
 }
 
 /* ending css for image - content of site */
+
+/* make nav fix */
+img{
+    border-radius: 0.5rem;
+}
+
+/* ending make nav fix */
