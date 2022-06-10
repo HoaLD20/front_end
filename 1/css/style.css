@@ -1,6 +1,7 @@
 /* starting set font for all site */
 body {
     font-family: 'Roboto' !important;
+    overflow-x: hidden;
 }
 
 /* ending set font */
@@ -44,8 +45,31 @@ body {
 /* ending css for image - content of site */
 
 /* make nav fix */
-img{
+img {
     border-radius: 0.5rem;
 }
 
 /* ending make nav fix */
+
+
+/* set width serch bar */
+.form-control {
+    width: max-content;
+}
+
+/* set logo center */
+
+#logo {
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: calc((100% - 195px) / 2);
+    z-index: 100000;
+    width: 4rem;
+}
+
+@media screen and (max-width:992px) {
+    #logo {
+        display: none;
+    }
+}
